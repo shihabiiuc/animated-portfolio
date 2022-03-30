@@ -1,0 +1,33 @@
+.social-share {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: fixed;
+  top: 50vh;
+  left: 0;
+  transform: translateY(-50%);
+  
+  a {
+    width: 50px;
+    height: 50px;
+    background-color: #DEF0FF;
+    border: 1px solid #7f53ac;
+    transition: background-color 0.8s ease-in;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 30px;
+      height: auto;
+      align-self: center;
+    }
+  }
+  a:hover {
+    background-color: #7f53ac;
+  }
+}

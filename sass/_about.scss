@@ -1,0 +1,37 @@
+#about {
+  .content {
+    h2 {
+      text-align: center;
+    }
+  }
+  .about-container {
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+  }
+  .about-container-left {
+    flex-basis: 40%;
+    background: #DEF0FF;
+    padding: 30px 15px;
+    li {
+      font-style: italic;
+      line-height: 1.9;
+    }
+  }
+  .about-container-right {
+    flex-basis: 60%;
+    background: #F2F3F8;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      max-width: 100%;
+      align-self: flex-start;
+      @media screen and (min-width: 1200px) {
+        align-self: stretch;
+      }
+    }
+  }
+}

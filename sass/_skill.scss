@@ -1,0 +1,46 @@
+#skill {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  .skill--content {
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left {
+      flex-basis: 30%;
+      h2 {
+        font-size: 36px;
+        color: #222;
+      }
+    }
+    .right {
+      flex-basis: 65%;
+      display: block;
+      @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+      }
+      .item {
+        flex-basis: 32%;
+        text-align: center;
+        border: 1px solid #222;
+        padding: 30px 15px;
+        margin-bottom: 30px;
+        @media screen and (min-width: 768px) {
+          margin-bottom: 0;
+        }
+
+        border-width: 5px 5px 5px 5px;
+        border-image: linear-gradient(45deg, rgba(#FF9800, 1) 0%, rgba(#800080, 1) 100%);
+        border-image-slice: 9;
+        border-style: solid;
+        img {
+          max-width: 100px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

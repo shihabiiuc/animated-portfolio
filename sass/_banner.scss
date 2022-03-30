@@ -1,0 +1,37 @@
+.banner {
+  padding: 90px 15px;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+  text-align: center;
+  color: #FFFFFF;
+  .banner--content{
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background: url('../assets/svg/soap.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    .name{
+      text-transform: uppercase;
+    }
+    .designation {
+      color: rgba($color: #FFFFFF, $alpha: 0.7);
+      text-transform: uppercase;
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      margin: 0;
+      @media screen and (min-width: 768px) {
+        font-size: 70px;
+      }
+    }
+    .tagline {
+      font-size: 18px;
+      @media screen and (min-width: 768px) {
+        font-size: 26px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.promo {
+  background-color: #DEF0FF;
+  .content {
+    h2 {
+      font-size: 36px;
+      font-weight: 300;
+      color: #222;
+      text-shadow: 0 1px 2px #222;
+      @media screen and (min-width: 768px) {
+        font-size: 70px;
+      }
+      span.orange {
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 22px;
+      @media screen and (min-width: 768px) {
+        font-size: 36px;
+      }
+    }
+  }
+}

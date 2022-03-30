@@ -1,0 +1,48 @@
+#pricing {
+  background-color: #DEF0FF;
+  .pricing--content {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    .item {
+      flex-basis: 32%;
+      border: 1px solid #848484;
+      border-radius: 3px;
+      padding: 20px 10px 30px;
+      margin-bottom: 30px;
+      @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+      .price {
+        font-size: 36px;
+        color: #cb2027;
+        font-weight: 700;
+      }
+      img {
+        max-width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      .description {
+        font-style: italic;
+        min-height: 60px;
+        display: block;
+        margin: 20px 0;
+      }
+      a {
+        padding: 10px 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid #222;
+        text-decoration: none;
+        color: #FFF;
+        background: #222;
+      }
+    }
+  }
+}

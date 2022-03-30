@@ -1,0 +1,38 @@
+#testimonial {
+  h2 {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+  .testimonial--content {
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .item {
+      flex-basis: 45%;
+      margin: 15px 0;
+    }
+  }
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #DEF0FF;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}

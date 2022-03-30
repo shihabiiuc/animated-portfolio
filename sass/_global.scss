@@ -1,0 +1,45 @@
+html {
+  line-height: 1.15;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  position: relative;
+}
+section {
+  padding: 90px 15px;
+}
+.content {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  font-size: 18px;
+  margin: 5px 0 10px;
+}
+.bold {
+  font-weight: 700;
+}
+.orange {
+  color: #FF5100
+}
+h2 {
+  font-size: 36px;
+  margin: 5px 0 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 70px;
+    color: #848484;
+    font-weight: 700;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.center {
+  text-align: center;
+}
