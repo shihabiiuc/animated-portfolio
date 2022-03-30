@@ -30,6 +30,8 @@
     content="This is a portfolio website template that is free to download and use. You can edit this template and create your portfolio website in half an hour." />
   <meta property='og:url' content="assets/images/social-media-thumbnail.jpg" />
   <!-- Linkedin Card End -->
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Your Name -Portfolio</title>
 </head>
 <body>
@@ -54,14 +56,20 @@
     </div>
   </nav><!-- .site-header -->
   <section class="banner">
-    <div class="banner--content">
+    <div class="banner--content"
+    data-aos="fade-in"
+    data-aos-duration="2000"
+    >
       <h3 class="name">Your name</h3>
       <h1 class="designation">Freelance graphic designer</h1>
       <p class="tagline">If you&apos;re writer or something else, change the title as per your profession.</p>
     </div>    
   </section><!-- .banner -->
   <section class="promo">
-    <div class="content">
+    <div class="content"
+    data-aos="fade-up"
+    data-aos-offset="50"
+    >
       <h2>We bring your <span class="bold">ideas</span> to life<span class="orange">.</span></h2>
       <p>Great ideas, beautifully executed & commercially sound.</p>
     </div>
@@ -70,7 +78,10 @@
     <div class="content">
       <h2>About Me</h2>
       <div class="about-container">
-        <div class="about-container-left">
+        <div class="about-container-left"
+        data-aos="fade-up-right"
+        data-aos-duration="1000"
+        >
           <p>Consectetur adipisicing elit fugiat ratione laboriosam nostrum atque. Accusantium atque molestias amet culpa, quam illo porro, cupiditate repellendus explicabo sunt natus voluptate fugit ducimus esse.</p>
           <h3>Accusantium atque molestias</h3>
           <ul>
@@ -82,7 +93,10 @@
           <h4>Atque lccusantium molestias amet</h4>
           <p>Auam illo porro cupiditate repellendus explicabo ducimus esse. Dupiditate repellendus explicabo sunt natus voluptate fugit ducimus esse</p>
         </div>
-        <div class="about-container-right">
+        <div class="about-container-right"
+        data-aos="fade-up-left"
+        data-aos-duration="1500"
+        >
           <img src="assets/images/headshot.jpg" alt="your name, headshot">
         </div>
       </div>
@@ -95,17 +109,26 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam inventore molestias maiores esse eum, recusandae impedit? Neque inventore, saepe esse culpa, adipisci ipsum sed suscipit debitis in voluptatibus nisi.</p>
       </div>
       <div class="right">
-        <div class="item">
+        <div class="item"
+        data-aos="flip-left"
+        data-aos-duration="1000"
+        >
           <img src="assets/images/photoshop.png" alt="Photoshop">
           <h3>Abode Photoshop</h3>
           <p>laboriosam temporibus harum culpa recusandae nemo tempora ut vitae earum quo.</p>
         </div>
-        <div class="item">
+        <div class="item"
+        data-aos="flip-right"
+        data-aos-duration="2000"
+        >
           <img src="assets/images/illustrator.png" alt="Illustrator">
           <h3>Abode Illustrator</h3>
           <p>Sunt doloribus perferendis officia soluta enim optio distinctio exercitationem.</p>
         </div>
-        <div class="item">
+        <div class="item"
+        data-aos="flip-left"
+        data-aos-duration="1500"
+        >
           <img src="assets/images/indesign.png" alt="InDesign">
           <h3>Abode InDesign</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit qui debitis.</p>
@@ -115,7 +138,10 @@
   </section><!-- #skill -->
   <section id="service">
     <h2>Services I offer</h2>
-    <div class="content service--content">
+    <div class="content service--content" 
+    data-aos="fade-up"
+    data-aos-duration="3000"
+    >
       <div class="item">
         <h3>Logo design</h3>
         <img src="assets/images/logo-design.png" alt="Logo design">
@@ -202,7 +228,11 @@
       </div><!-- item -->
     </div><!-- .testimonial--content -->
   </section><!-- testimonial -->
-  <section id="pricing">
+  <section id="pricing" 
+  data-aos="fade-up"
+  data-aos-duration="1000"
+  data-aos-offset="50"
+  >
     <h2 class="center">Pricing</h2>
     <p class="center">I charge $30/hour (USD). But if you need any of the following tasks done, see the fixed price below.</p>
     <div class="pricing--content">
@@ -241,7 +271,11 @@
       </address>
     </div>
   </section>
-  <div class="social-share">
+  <div class="social-share"
+  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-anchor-placement="center-top"
+  >
     <a href="https://www.facebook.com/sharer/sharer.php?u=https://shihabiiuc.github.io/portfolio/index.html" target="_blank"><img src="assets/svg/facebook.svg" alt="share on facebook"></a>
     <a href="https://twitter.com/intent/tweet?url=https://shihabiiuc.github.io/portfolio/index.html&text=" target="_blank"><img src="assets/svg/twitter.svg" alt="share on twitter"></a>
     <a href="https://pinterest.com/pin/create/button/?url=https://shihabiiuc.github.io/portfolio/index.html&media=&description=" target="_blank"><img src="assets/svg/pinterest.svg" alt="share on pinterest"></a>
@@ -267,5 +301,10 @@
     </div>
   </footer>
   <script src="js/script.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
